@@ -1,0 +1,62 @@
+/* iCheck plugin Micodigoeal skin, aero
+----------------------------------- */
+.icheckbox_micodigoeal-aero,
+.iradio_micodigoeal-aero {
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 18px;
+    height: 18px;
+    background: url(aero.png) no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+.icheckbox_micodigoeal-aero {
+    background-position: 0 0;
+}
+    .icheckbox_micodigoeal-aero.hover {
+        background-position: -20px 0;
+    }
+    .icheckbox_micodigoeal-aero.checked {
+        background-position: -40px 0;
+    }
+    .icheckbox_micodigoeal-aero.disabled {
+        background-position: -60px 0;
+        cursor: default;
+    }
+    .icheckbox_micodigoeal-aero.checked.disabled {
+        background-position: -80px 0;
+    }
+
+.iradio_micodigoeal-aero {
+    background-position: -100px 0;
+}
+    .iradio_micodigoeal-aero.hover {
+        background-position: -120px 0;
+    }
+    .iradio_micodigoeal-aero.checked {
+        background-position: -140px 0;
+    }
+    .iradio_micodigoeal-aero.disabled {
+        background-position: -160px 0;
+        cursor: default;
+    }
+    .iradio_micodigoeal-aero.checked.disabled {
+        background-position: -180px 0;
+    }
+
+/* Retina support */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (-moz-min-device-pixel-ratio: 1.5),
+       only screen and (-o-min-device-pixel-ratio: 3/2),
+       only screen and (min-device-pixel-ratio: 1.5) {
+    .icheckbox_micodigoeal-aero,
+    .iradio_micodigoeal-aero {
+        background-image: url(aero@2x.png);
+        -webkit-background-size: 200px 20px;
+        background-size: 200px 20px;
+    }
+}
